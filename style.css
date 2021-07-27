@@ -1,8 +1,40 @@
-.box1{
-    background-color: blue;
-    width: 100px;
-    height: 100px;
-}
 body{
-    display: none;
+    background-color: black;
+}
+.box1{
+    background-color: rgb(0, 255, 55);
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    position: absolute;
+    top : 200px;
+
+}
+.box2{
+    background-color: rgb(255, 0, 0);
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    position: absolute;
+    top : 200px;
+    right: 0;
+}
+
+.box3{
+    /* background-color: rgb(255, 136, 0); */
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    position: absolute;
+    left: 610px;
+    top: 0;
+}
+.box4{
+    /* background-color: rgb(89, 0, 255); */
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    position: absolute;
+    left: 610px;
+    bottom: 0;
 }
